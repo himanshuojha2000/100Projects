@@ -14,3 +14,8 @@
 
 	A project that customizes the website scrollbar using CSS for a sleek and modern appearance. 
 🛠 Tech Used: HTML, CSS
+
+🔹 P4 - Awesome Image Hovering Effect
+
+A visually appealing image hover effect using clip-path to create dynamic transitions.
+🛠 Tech Used: HTML, CSS
