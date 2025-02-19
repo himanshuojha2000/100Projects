@@ -28,7 +28,7 @@ a {
 
 /* Fixed selector */
 a::before {
-    content: "";
+    content: "HOVER ME";
     position: absolute;
     width: 100%;
     height: 100%;
