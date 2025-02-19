@@ -24,3 +24,7 @@ A visually appealing image hover effect using clip-path to create dynamic transi
 
 A collection of six stylish buttons with unique hover and animation effects.
 🛠 Tech Used: HTML, CSS
+
+🔹 P6 - Creative Navigation Bar
+A modern and interactive navigation bar with stylish hover effects and smooth transitions.
+🛠 Tech Used: HTML, CSS
