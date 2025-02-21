@@ -28,11 +28,19 @@ A collection of six stylish buttons with unique hover and animation effects.
 A modern and interactive navigation bar with stylish hover effects and smooth transitions.  
 🛠 **Tech Used:** HTML, CSS  
 
-### 🔹 P7 - Creative Image Effect  
-A project featuring three unique image transition effects to enhance visual appeal and user interaction.  
+### 🔹 P7 - Creative Image Effect with Two Unique Cards  
+A project featuring two unique image transition effects with stylish creative cards to enhance visual appeal and user interaction.  
 🛠 **Tech Used:** HTML, CSS  
 
 ## 🌟 How to Use  
 1. Clone the repository:  
    ```bash
    git clone https://github.com/your-username/repository-name.git
+   ```  
+2. Navigate to the project directory:  
+   ```bash
+   cd repository-name
+   ```  
+3. Open the project in your browser by opening `index.html`.  
+
+📢 Stay tuned for more updates and creative projects! 🎨✨
