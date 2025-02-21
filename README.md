@@ -17,7 +17,7 @@ A project that customizes the website scrollbar using CSS for a sleek and modern
 🛠 **Tech Used:** HTML, CSS  
 
 ### 🔹 P4 - Awesome Image Hovering Effect  
-A visually appealing image hover effect using `clip-path` to create dynamic transitions.  
+A visually appealing image hover effect  to create dynamic transitions.  
 🛠 **Tech Used:** HTML, CSS  
 
 ### 🔹 P5 - Creative Buttons Collection  
@@ -28,19 +28,16 @@ A collection of six stylish buttons with unique hover and animation effects.
 A modern and interactive navigation bar with stylish hover effects and smooth transitions.  
 🛠 **Tech Used:** HTML, CSS  
 
-### 🔹 P7 - Creative Image Effect with Two Unique Cards  
-A project featuring two unique image transition effects with stylish creative cards to enhance visual appeal and user interaction.  
+### 🔹 P7 - Creative Image Effect  
+A project featuring three unique image transition effects to enhance visual appeal and user interaction.  
+🛠 **Tech Used:** HTML, CSS  
+
+### 🔹 P8 - Creative Card  
+A visually appealing creative card design with hover effects and animations.  
 🛠 **Tech Used:** HTML, CSS  
 
 ## 🌟 How to Use  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/repository-name.git
-   ```  
-2. Navigate to the project directory:  
-   ```bash
-   cd repository-name
-   ```  
-3. Open the project in your browser by opening `index.html`.  
-
-📢 Stay tuned for more updates and creative projects! 🎨✨
+   git clone https://github.com/himanshuojha2000/100Projects.git
+   
