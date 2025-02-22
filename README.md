@@ -17,7 +17,7 @@ A project that customizes the website scrollbar using CSS for a sleek and modern
 🛠 **Tech Used:** HTML, CSS  
 
 ### 🔹 P4 - Awesome Image Hovering Effect  
-A visually appealing image hover effect  to create dynamic transitions.  
+A visually appealing image hover effect to create dynamic transitions.  
 🛠 **Tech Used:** HTML, CSS  
 
 ### 🔹 P5 - Creative Buttons Collection  
@@ -36,8 +36,11 @@ A project featuring three unique image transition effects to enhance visual appe
 A visually appealing creative card design with hover effects and animations.  
 🛠 **Tech Used:** HTML, CSS  
 
+### 🔹 P9 - Tooltip Hover Effect  
+A smooth and stylish tooltip that appears when hovering over an element. The tooltip includes a fading animation and an arrow effect.  
+🛠 **Tech Used:** HTML, CSS  
+
 ## 🌟 How to Use  
 1. Clone the repository:  
    ```bash
    git clone https://github.com/himanshuojha2000/100Projects.git
-   
