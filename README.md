@@ -40,6 +40,10 @@ A visually appealing creative card design with hover effects and animations.
 A smooth and stylish tooltip that appears when hovering over an element. The tooltip includes a fading animation and an arrow effect.  
 🛠 **Tech Used:** HTML, CSS  
 
+### 🔹 P10 - Accordion  
+An interactive FAQ-style accordion with smooth open-close animations, allowing users to expand and collapse sections for better content organization.  
+🛠 **Tech Used:** HTML, CSS  
+
 ## 🌟 How to Use  
 1. Clone the repository:  
    ```bash
