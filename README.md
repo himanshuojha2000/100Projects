@@ -1,12 +1,12 @@
 # 🚀 Creative Web Projects  
 
-A collection of interactive and visually appealing web projects using **HTML & CSS**.  
+A collection of interactive and visually appealing web projects using **HTML, CSS & JavaScript**.  
 
 ## 📌 Projects List  
 
 ### 🔹 P1 - Video Background & Hover Effects  
 A simple webpage with a video background and hover effects for interactive elements.  
-🛠 **Tech Used:** HTML, CSS  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
 
 ### 🔹 P2 - Stylish Loading Screen  
 A stylish loading animation with smooth transitions.  
@@ -52,9 +52,15 @@ A beautifully designed custom scrollbar that enhances user experience with smoot
 A visually creative text effect where the background image appears inside the text. Uses CSS `background-clip` and `-webkit-background-clip` for a stylish and modern look.  
 🛠 **Tech Used:** HTML, CSS  
 
----
+### 🔹 P13 - Interactive Web Animation (First JS Project)  
+A dynamic web animation project using JavaScript for interactive user experience. Features smooth animations, event listeners, and interactive elements to engage users.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
+---  
 
 ## 🌟 How to Use  
 1. Clone the repository:  
-   ```bash
-   git clone https://github.com/himanshuojha2000/100Projects.git
+   ```bash  
+   git clone https://github.com/himanshuojha2000/100Projects.git  
+   
+
