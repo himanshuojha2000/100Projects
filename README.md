@@ -56,11 +56,13 @@ A visually creative text effect where the background image appears inside the te
 A dynamic web animation project using JavaScript for interactive user experience. Features smooth animations, event listeners, and interactive elements to engage users.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
----  
+### 🔹 P14 - Digital Clock with Neon Glow  
+A stylish **digital clock** with a futuristic **neon glow effect**, using JavaScript for real-time updates. Features smooth transitions, a dark theme, and a cyberpunk-style glowing effect.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
+---
 
 ## 🌟 How to Use  
 1. Clone the repository:  
    ```bash  
    git clone https://github.com/himanshuojha2000/100Projects.git  
-   
-

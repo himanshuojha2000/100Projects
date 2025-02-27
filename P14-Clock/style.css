@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background-color: #0a0a0a;
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock {
+    color: #20c20e;
+    font-size: 100px;
+    letter-spacing: 14px;
+    text-align: center;
+    padding: 20px 40px;
+    border: 5px solid #20c20e;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #20c20e, 0 0 40px #20c20e;
+    animation: glow 1.5s infinite alternate;
+}
+
+/* Glowing animation effect */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px #20c20e, 0 0 20px #20c20e;
+    }
+    100% {
+        box-shadow: 0 0 20px #20c20e, 0 0 40px #20c20e;
+    }
+}
