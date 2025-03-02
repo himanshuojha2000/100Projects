@@ -60,6 +60,10 @@ A dynamic web animation project using JavaScript for interactive user experience
 A stylish **digital clock** with a futuristic **neon glow effect**, using JavaScript for real-time updates. Features smooth transitions, a dark theme, and a cyberpunk-style glowing effect.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
+### 🔹 P15 - Animated Heart Button ❤️  
+A beautiful **animated heart button** with smooth hover and click effects. Clicking the gray heart fills it with red, and double-clicking resets it. Features CSS animations and JavaScript event handling.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
 ---
 
 ## 🌟 How to Use  
