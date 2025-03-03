@@ -52,8 +52,8 @@ A beautifully designed custom scrollbar that enhances user experience with smoot
 A visually creative text effect where the background image appears inside the text. Uses CSS `background-clip` and `-webkit-background-clip` for a stylish and modern look.  
 🛠 **Tech Used:** HTML, CSS  
 
-### 🔹 P13 - Interactive Web Animation (First JS Project)  
-A dynamic web animation project using JavaScript for interactive user experience. Features smooth animations, event listeners, and interactive elements to engage users.  
+### 🔹 P13 - Page Scroll Indicator 📜  
+A **page scroll indicator** that visually represents how much of a webpage has been scrolled. The progress bar dynamically updates as the user scrolls down the page.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
 ### 🔹 P14 - Digital Clock with Neon Glow  
@@ -62,6 +62,10 @@ A stylish **digital clock** with a futuristic **neon glow effect**, using JavaSc
 
 ### 🔹 P15 - Animated Heart Button ❤️  
 A beautiful **animated heart button** with smooth hover and click effects. Clicking the gray heart fills it with red, and double-clicking resets it. Features CSS animations and JavaScript event handling.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
+### 🔹 P16 - Random Color Generator 🎨  
+A fun and interactive **random color generator** that changes the background to a new random color on each button click. Displays the generated color code for easy use in projects.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
 ---
