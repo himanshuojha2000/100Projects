@@ -68,6 +68,10 @@ A beautiful **animated heart button** with smooth hover and click effects. Click
 A fun and interactive **random color generator** that changes the background to a new random color on each button click. Displays the generated color code for easy use in projects.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
+### 🔹 P17 - Color Toggle 🎛️  
+A **dark/light mode color toggle switch** that allows users to change the background and UI theme with a single click. Uses CSS variables for smooth theme transitions.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
 ---
 
 ## 🌟 How to Use  
