@@ -81,6 +81,10 @@ An **animated text effect** where words appear one by one as if they are being t
 A custom mouse cursor that replaces the default pointer with a stylish, animated design. The cursor smoothly follows the mouse movements and can change shape, color, or size based on user interactions.
 🛠 Tech Used: HTML, CSS, JavaScript
 
+### 🔹 P20 - Video Trailer Popup 🎬  
+An interactive **video trailer popup** that plays a video when a button is clicked and allows users to close it with a smooth transition effect. The background dims when the video is active for a better viewing experience.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
 ---
 
 ## 🌟 How to Use  
