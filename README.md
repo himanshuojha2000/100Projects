@@ -76,6 +76,11 @@ A **dark/light mode color toggle switch** that allows users to change the backgr
 An **animated text effect** where words appear one by one as if they are being typed automatically. After completion, they are erased and replaced with the next word. Ideal for headings and introduction sections.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
+🔹 P19 - Custom Cursor Effect 🎯
+
+A custom mouse cursor that replaces the default pointer with a stylish, animated design. The cursor smoothly follows the mouse movements and can change shape, color, or size based on user interactions.
+🛠 Tech Used: HTML, CSS, JavaScript
+
 ---
 
 ## 🌟 How to Use  
