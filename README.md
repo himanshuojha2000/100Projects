@@ -72,6 +72,10 @@ A fun and interactive **random color generator** that changes the background to 
 A **dark/light mode color toggle switch** that allows users to change the background and UI theme with a single click. Uses CSS variables for smooth theme transitions.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
+### 🔹 P18 - Auto Typing Text Effect ⌨️✨  
+An **animated text effect** where words appear one by one as if they are being typed automatically. After completion, they are erased and replaced with the next word. Ideal for headings and introduction sections.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
 ---
 
 ## 🌟 How to Use  
