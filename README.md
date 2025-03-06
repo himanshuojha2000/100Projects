@@ -85,6 +85,12 @@ A custom mouse cursor that replaces the default pointer with a stylish, animated
 An interactive **video trailer popup** that plays a video when a button is clicked and allows users to close it with a smooth transition effect. The background dims when the video is active for a better viewing experience.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
+
+🔹 P21 - Random Emoji Generator 🎭✨
+
+A fun and interactive tool that displays a random emoji on each button click. Great for mood-based interactions, emoji-based games, or just for fun!
+🛠 Tech Used: HTML, CSS, JavaScript
+
 ---
 
 ## 🌟 How to Use  
