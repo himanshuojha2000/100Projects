@@ -91,6 +91,11 @@ An interactive **video trailer popup** that plays a video when a button is click
 A fun and interactive tool that displays a random emoji on each button click. Great for mood-based interactions, emoji-based games, or just for fun!
 🛠 Tech Used: HTML, CSS, JavaScript
 
+### 🔹 P22 - Animated Navigation Bar 📜  
+A stylish **animated navigation bar** that smoothly expands and collapses when toggled. The navbar starts hidden and appears dynamically with smooth CSS transitions.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
+
 ---
 
 ## 🌟 How to Use  
