@@ -76,25 +76,25 @@ A **dark/light mode color toggle switch** that allows users to change the backgr
 An **animated text effect** where words appear one by one as if they are being typed automatically. After completion, they are erased and replaced with the next word. Ideal for headings and introduction sections.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
-🔹 P19 - Custom Cursor Effect 🎯
-
-A custom mouse cursor that replaces the default pointer with a stylish, animated design. The cursor smoothly follows the mouse movements and can change shape, color, or size based on user interactions.
-🛠 Tech Used: HTML, CSS, JavaScript
+### 🔹 P19 - Custom Cursor Effect 🎯  
+A custom mouse cursor that replaces the default pointer with a stylish, animated design. The cursor smoothly follows the mouse movements and can change shape, color, or size based on user interactions.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
 
 ### 🔹 P20 - Video Trailer Popup 🎬  
 An interactive **video trailer popup** that plays a video when a button is clicked and allows users to close it with a smooth transition effect. The background dims when the video is active for a better viewing experience.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
-
-🔹 P21 - Random Emoji Generator 🎭✨
-
-A fun and interactive tool that displays a random emoji on each button click. Great for mood-based interactions, emoji-based games, or just for fun!
-🛠 Tech Used: HTML, CSS, JavaScript
+### 🔹 P21 - Random Emoji Generator 🎭✨  
+A fun and interactive tool that displays a random emoji on each button click. Great for mood-based interactions, emoji-based games, or just for fun!  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
 
 ### 🔹 P22 - Animated Navigation Bar 📜  
 A stylish **animated navigation bar** that smoothly expands and collapses when toggled. The navbar starts hidden and appears dynamically with smooth CSS transitions.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
+### 🔹 P23 - Arrow Fade Out Animation ⬇️✨  
+An arrow indicator at the bottom of the screen that bounces continuously and fades out as the user scrolls down. Helps indicate scrolling interaction in a stylish way.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
 
 ---
 
