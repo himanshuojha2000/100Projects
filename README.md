@@ -96,6 +96,11 @@ A stylish **animated navigation bar** that smoothly expands and collapses when t
 An arrow indicator at the bottom of the screen that bounces continuously and fades out as the user scrolls down. Helps indicate scrolling interaction in a stylish way.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
+### 🔹 P24 - Simple Calculator ⬇️✨  
+Simple Calculator with basic functions of +, -, /, *.
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
+
 ---
 
 ## 🌟 How to Use  
