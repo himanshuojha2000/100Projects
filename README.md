@@ -96,10 +96,19 @@ A stylish **animated navigation bar** that smoothly expands and collapses when t
 An arrow indicator at the bottom of the screen that bounces continuously and fades out as the user scrolls down. Helps indicate scrolling interaction in a stylish way.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
-### 🔹 P24 - Simple Calculator ⬇️✨  
-Simple Calculator with basic functions of +, -, /, *.
+### 🔹 P24 - Simple Calculator ⚙️  
+A simple **calculator** with basic functions like addition, subtraction, multiplication, and division. Features a responsive UI with smooth interactions.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
+### 🔹 P25 - Copy & Move Text ✍️  
+A web-based tool that allows users to **copy and move text** between different text areas effortlessly. Enhances text manipulation for better usability.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
+### 🔹 P26 - Progress Bar ⏳  
+A **dynamic progress bar** that updates as users complete steps, with smooth animations and transitions.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
+---
 
 ---
 

@@ -3,28 +3,28 @@ const progress= document.getElementById("progress");
 //prev
 const prevBtn= document.getElementById("prev");
 //nnextbtn
-const nextbtn=document.getElementById("next");
+const nextBtn=document.getElementById("next");
 //circlbtn
-const circles=document.querySelector(".circle");
+const circles=document.querySelectorAll(".circle");
 
 
 let activeIndex=1;
 
-nextbtn.addEventListener('click',()=>{
+nextBtn.addEventListener('click',()=>{
     activeIndex++;
     if(activeIndex>circles.length){
         activeIndex=circles.length;
     }
-    updateUI;
+    updateUI();
 });
 
 
-prevbtn.addEventListener('click',()=>{
+prevBtn.addEventListener('click',()=>{
     activeIndex--;
     if(activeIndex<1){
         activeIndex=1;
     }
-    updateUI;
+    updateUI();
 });
 
 function updateUI(){
@@ -34,7 +34,7 @@ circles.forEach((circles,index)=>{
    else circles.classList.remove("active");
 });
 
-const actives=document.querySelector(".active");
+const actives=document.querySelectorAll(".active");
 
 progress.style.width=((actives.length-1)/ (circles.length -1))*100 + '%';
 
@@ -43,10 +43,10 @@ if(activeIndex === 1){
 }
 
 else if(activeIndex === circles.length){
-    nextbtn.disabled=true;
+    nextBtn.disabled=true;
 }
 else{
-    prevBtn.disabled =false;
+    nextBtn.disabled =false;
     prevBtn.disabled =false;
     
 }
