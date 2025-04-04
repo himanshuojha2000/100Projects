@@ -108,7 +108,9 @@ A web-based tool that allows users to **copy and move text** between different t
 A **dynamic progress bar** that updates as users complete steps, with smooth animations and transitions.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
----
+# ##🔹 P28 - Lazy Loading with Blur Background 
+A visually pleasing **lazy loading effect** where a full-screen background image is initially blurred and gradually becomes clear as the loading percentage increases from 1% to 100%. This effect mimics a real-world loading screen and enhances the user's visual experience.
+🛠 **Tech Used:** HTML, CSS, JavaScript  
 
 ---
 
