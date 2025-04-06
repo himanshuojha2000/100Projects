@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(8, 8, 8);
     color: #000;
     display: flex;
@@ -14,30 +14,30 @@ body{
     font-family: sans-serif;
 }
 
-.container{
-    background:white;
+.container {
+    background: white;
     padding: 5rem;
     border-radius: 5px;
 }
 
-.container h1{
+.container h1 {
     text-align: center;
-    margin-bottom: 40px;   
+    margin-bottom: 40px;
 }
 
-.special{
+.special {
     background: cyan;
     padding: 5px 20px;
     color: #fff;
 }
 
-.form-control{
+.form-control {
     position: relative;
-    margin:  20px 0 40px;
+    margin: 20px 0 40px;
     width: 300px;
 }
 
-.form-control input{
+.form-control input {
     background: transparent;
     border: 0;
     border-bottom: 2px solid black;
@@ -45,16 +45,16 @@ body{
     width: 100%;
     padding: 15px 0;
     font-size: 10px;
-    color:#000;
+    color: #000;
 }
 
 .form-control input:focus,
-.form-control input:valid{
+.form-control input:valid {
     outline: 0;
     border-bottom-color: cyan;
 }
 
-.btn{
+.btn {
     cursor: pointer;
     display: inline-block;
     width: 100%;
@@ -66,22 +66,22 @@ body{
     border-radius: 5px;
 }
 
-.btn:focus{
+.btn:focus {
     outline: 0;
 }
 
-.btn:active{
+.btn:active {
     transform: scale(0.98);
 }
 
-.form-control label{
+.form-control label {
     position: absolute;
     top: 15px;
     left: 0;
     pointer-events: none;
 }
 
-.form-control label span{
+.form-control label span {
     display: inline-block;
     font-size: 18px;
     min-width: 5px;
@@ -89,9 +89,8 @@ body{
 }
 
 
-.form-control input:focus +label span,
-.form-control input:valid +label span
-{
+.form-control input:focus+label span,
+.form-control input:valid+label span {
     color: cyan;
     transform: translateY(-30px);
 }
