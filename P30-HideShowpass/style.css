@@ -1,11 +1,11 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-body{
+body {
     position: relative;
     min-height: 100vh;
     background-color: rgb(255, 105, 180);
@@ -14,7 +14,7 @@ body{
     align-items: center;
 }
 
-.container{
+.container {
     position: relative;
     width: 100%;
     max-width: 400px;
@@ -26,7 +26,7 @@ body{
     box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
 }
 
-input{
+input {
     outline: none;
     background: none;
     border: none;
@@ -35,11 +35,11 @@ input{
     font-size: 16px;
 }
 
-.eye-container{
+.eye-container {
 
     position: absolute;
-    top:50%;
-    right:15px;
+    top: 50%;
+    right: 15px;
     transform: translateY(-50%);
     width: 40px;
     height: 40px;
@@ -48,14 +48,14 @@ input{
     align-items: center;
 }
 
-#eye-icon{
+#eye-icon {
     font-size: 20px;
     color: #777;
     transition: 0.2s ease;
 
 }
 
-#eye-icon:hover{
-    color:rgb(255, 105, 180);
+#eye-icon:hover {
+    color: rgb(255, 105, 180);
     cursor: pointer;
 }
