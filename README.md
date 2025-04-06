@@ -80,11 +80,11 @@ An **animated text effect** where words appear one by one as if they are being t
 A custom mouse cursor that replaces the default pointer with a stylish, animated design. The cursor smoothly follows the mouse movements and can change shape, color, or size based on user interactions.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
-### 🔹 P20 - Video Trailer Popup 🎬  
+### 🔹 P20 - Video Trailer Popup 🎮  
 An interactive **video trailer popup** that plays a video when a button is clicked and allows users to close it with a smooth transition effect. The background dims when the video is active for a better viewing experience.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
-### 🔹 P21 - Random Emoji Generator 🎭✨  
+### 🔹 P21 - Random Emoji Generator 🌽✨  
 A fun and interactive tool that displays a random emoji on each button click. Great for mood-based interactions, emoji-based games, or just for fun!  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
@@ -108,8 +108,24 @@ A web-based tool that allows users to **copy and move text** between different t
 A **dynamic progress bar** that updates as users complete steps, with smooth animations and transitions.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
-# ##🔹 P28 - Lazy Loading with Blur Background 
-A visually pleasing **lazy loading effect** where a full-screen background image is initially blurred and gradually becomes clear as the loading percentage increases from 1% to 100%. This effect mimics a real-world loading screen and enhances the user's visual experience.
+### 🔹 P28 - Lazy Loading with Blur Background  
+A visually pleasing **lazy loading effect** where a full-screen background image is initially blurred and gradually becomes clear as the loading percentage increases from 1% to 100%. This effect mimics a real-world loading screen and enhances the user's visual experience.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
+### 🔹 P29 - Popup Form  
+A **modal popup form** that appears when a button is clicked. The form includes smooth animations, a dimmed background overlay, and stylish input fields. It can be closed via a close icon or clicking outside the modal.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
+### 🔹 P30 - Show/Hide Password Toggle  
+An interactive **show/hide password** input field that allows users to toggle visibility with a single click. Useful for improving UX in login or registration forms.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
+### 🔹 P31 - Social Media Select Menu  
+A custom **dropdown select menu** to choose between different social media platforms. Includes icons, animations, and a custom design different from the default HTML `<select>` element.  
+🛠 **Tech Used:** HTML, CSS, JavaScript  
+
+### 🔹 P32 - Form with Animated Labels  
+A stylish **form animation** where each letter of the label animates in with a delay, creating a wave effect. Ideal for visually appealing forms and enhancing user experience.  
 🛠 **Tech Used:** HTML, CSS, JavaScript  
 
 ---
@@ -117,4 +133,6 @@ A visually pleasing **lazy loading effect** where a full-screen background image
 ## 🌟 How to Use  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/himanshuojha2000/100Projects.git  
+   git clone https://github.com/himanshuojha2000/100Projects.git
+   ```
+
