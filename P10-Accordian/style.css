@@ -1,72 +1,67 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background: linear-gradient(135deg, #c31432, #f80759);
-    font-family: 'Poppins', sans-serif;
-    height: 100vh;
-
+body {
+  background: linear-gradient(135deg, #c31432, #f80759);
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
 }
 
-#accordian{
-    margin: 100px auto;
-    width: 600px;
-
+#accordian {
+  margin: 100px auto;
+  width: 600px;
 }
 
 #accordian li {
-    list-style: none;
-    width: 100%;
-    margin-bottom:10px ;
-    border-radius: 10px; 
-    transition: transform 0.3s;
-    background: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-    padding: 10px;
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
 }
 #accordian li:hover {
-    transform: scale(1.02); /* 🔹 Slight zoom effect on hover */
+  transform: scale(1.02); /* 🔹 Slight zoom effect on hover */
 }
 
-#accordian li label{
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 600;
-    color: dodgerblue;
-    cursor: pointer;
-    transition: color 0.3s; 
+#accordian li label {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: dodgerblue;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
 #accordian li label:hover {
-    color: #d63447; 
+  color: #d63447;
 }
-#accordian  li label span{
-    transform: rotate(90deg);
-    font-size: 22px;
-    color: dodgerblue;
-
-}
-
-#accordian label + input[type='radio']{
-    display: none;
-
-}
-#accordian .content{
-    padding: 0 10px;
-    line-height: 26px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-
+#accordian li label span {
+  transform: rotate(90deg);
+  font-size: 22px;
+  color: dodgerblue;
 }
 
-#accordian label + input[type="radio"]:checked + .content{
-    max-height: 400px;
-    padding-top: 10px;
+#accordian label + input[type="radio"] {
+  display: none;
+}
+#accordian .content {
+  padding: 0 10px;
+  line-height: 26px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+#accordian label + input[type="radio"]:checked + .content {
+  max-height: 400px;
+  padding-top: 10px;
 }

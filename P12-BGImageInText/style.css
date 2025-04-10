@@ -1,27 +1,27 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: black;
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: black;
 }
 
-.mytext{
-    font-size: 10rem;
-    font-weight: 10rem;
-    background: url(https://t3.ftcdn.net/jpg/04/91/48/46/360_F_491484654_emJO3RMbetykchXLN0bolVLISDvnsg0v.jpg);
-    background-size: cover;
-  
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+.mytext {
+  font-size: 10rem;
+  font-weight: 10rem;
+  background: url(https://t3.ftcdn.net/jpg/04/91/48/46/360_F_491484654_emJO3RMbetykchXLN0bolVLISDvnsg0v.jpg);
+  background-size: cover;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }

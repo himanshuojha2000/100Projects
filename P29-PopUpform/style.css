@@ -1,117 +1,116 @@
 :root {
-    --modal-duration: 1s;
+  --modal-duration: 1s;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
-    margin: 0;
-    transition: 0.3s ease;
+  font-family: sans-serif;
+  margin: 0;
+  transition: 0.3s ease;
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://pangolinphoto.com/wp-content/uploads/2020/05/Guest-with-camera-gear-on-safari-in-Botswana-Pangolin-Photo-Safaris-scaled.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://pangolinphoto.com/wp-content/uploads/2020/05/Guest-with-camera-gear-on-safari-in-Botswana-Pangolin-Photo-Safaris-scaled.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .content-container {
-    display: flex;
+  display: flex;
 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .content-container h1 {
-    font-size: 4rem;
-    color: aliceblue;
+  font-size: 4rem;
+  color: aliceblue;
 }
 
 .content-container p {
-    width: 600px;
-    text-align: center;
-    margin-bottom: 40px;
-    color: antiquewhite;
-    line-height: 24px;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: antiquewhite;
+  line-height: 24px;
 }
 
 .cta-btn {
-    padding: 12px 30px;
-    font-size: 1.2rem;
-    outline: none;
-    border: none;
-    background: linear-gradient(to right, #ff6a00, #ee0979);
-    color: white;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: white;
 }
 
 .modal-container {
-    background-color: rgba(0, 0, 0, 0.6);
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .modal {
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 100%;
-    width: 400px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 400px;
 }
 
 .modal-content {
-    padding: 20px;
+  padding: 20px;
 }
 
 .modal-form div {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .modal-form label {
-    display: block;
-    margin-bottom: 6px;
-
+  display: block;
+  margin-bottom: 6px;
 }
 
 .modal-form .form-input {
-    padding: 8px;
-    width: 100%;
+  padding: 8px;
+  width: 100%;
 }
 
 .close-btn {
-    background: transparent;
-    border: none;
-    font-size: 25px;
-    position: absolute;
-    top: 5px;
-    right: 12px;
-    cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 25px;
+  position: absolute;
+  top: 5px;
+  right: 12px;
+  cursor: pointer;
 }
 
 .modal-container .submit-btn {
-    padding: 10px 30px;
-    font-weight: bold;
-    background: linear-gradient(to right, #ff6a00, #ee0979);
-    color: white;
-    cursor: pointer;
-
+  padding: 10px 30px;
+  font-weight: bold;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: white;
+  cursor: pointer;
 }
 
-
-.modal-container.show-modal{
-    display: block;
+.modal-container.show-modal {
+  display: block;
 }

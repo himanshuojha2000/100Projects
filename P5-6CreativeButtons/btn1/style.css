@@ -1,49 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:100vh;
-    background: rgb(16, 16, 16);
-    font-family: sans-serif;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(16, 16, 16);
+  font-family: sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: wheat;
-    position: relative; /* Added position: relative */
-    overflow: hidden; /* Ensure the slide stays inside the button */
-    border: 2px solid wheat;
-    padding: 2rem 5rem;
-    overflow: hidden;
-    transition: all 1s;
+a {
+  text-decoration: none;
+  color: wheat;
+  position: relative; /* Added position: relative */
+  overflow: hidden; /* Ensure the slide stays inside the button */
+  border: 2px solid wheat;
+  padding: 2rem 5rem;
+  overflow: hidden;
+  transition: all 1s;
 }
 
+a:before {
+  content: "SECOND BUTTON";
+  font-weight: bold;
+  color: #000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: wheat;
+  transform: translateY(-100%);
+  transition: all 1s;
 
-a:before{
-    content:"SECOND BUTTON";
-    font-weight: bold;
-    color:#000;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: wheat;
-    transform: translateY(-100%);
-    transition: all 1s;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-a:hover:before{
-    transform: translateY(0);
+a:hover:before {
+  transform: translateY(0);
 }

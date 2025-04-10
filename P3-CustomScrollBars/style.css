@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #8a2be2, #4b0082); /* Purple Gradient */
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2); /* Transparent White */
+  backdrop-filter: blur(10px); /* Frosted Glass Effect */
+  border-radius: 15px; /* Slightly bigger for a smoother look */
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+  margin: 20px; /* Add gap between cards */
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease; /* Smooth Hover Effect */
+}
+
+/* Hover Effect for Better UI */
+.card:hover {
+  transform: translateY(-5px); /* Lift the card slightly */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allows multiple cards to wrap */
+  justify-content: center; /* Centers cards */
+  gap: 20px; /* Adds space between cards */
+  padding: 20px;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    120deg,
+    rgba(138, 43, 226, 0.5),
+    rgba(75, 0, 130, 0.5)
+  ); /* Transparent Purple Gradient */
+  border-radius: 10px;
+}

@@ -1,76 +1,70 @@
-* { 
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-   font-family: sans-serif;
-   
-   
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.myvideo{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
-    padding: 0.5%;
-  
-    justify-content: center;
-    align-items: center;
+.myvideo {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+  padding: 0.5%;
+
+  justify-content: center;
+  align-items: center;
 }
 
-.content{
-    position: absolute; /* Place over the video */
-    top: 50%; /* Move it to the center */
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center the content */
-    text-align: center;
-    z-index: 2; /* Ensure it's above the video */
-
+.content {
+  position: absolute; /* Place over the video */
+  top: 50%; /* Move it to the center */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the content */
+  text-align: center;
+  z-index: 2; /* Ensure it's above the video */
 }
 
 .content h1 {
-    font-size: 160px;
-    color: #fff;
-    font-weight: 600;
-    transition: 0.5s;
+  font-size: 160px;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.5s;
 }
 
-.content h1:hover{
+.content h1:hover {
   -webkit-text-stroke: 2px white;
   color: transparent;
-
 }
 
-.content a{
-    text-decoration: none;
-    display: inline-block ;
-    color: #fff;
-    font-size: 24px;
-    border: 2px solid white;
-    padding: 14px 50px;
-    margin-top: 20px;
+.content a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  border: 2px solid white;
+  padding: 14px 50px;
+  margin-top: 20px;
 }
 
-.content a:hover{
-    background-color: #fff;
-    color: black;
-    z-index: 2; 
+.content a:hover {
+  background-color: #fff;
+  color: black;
+  z-index: 2;
 }
 
-.bg-video{
-    position: fixed;
-    top: 0;
-    left: 0;
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures video fills the screen */
+  z-index: -1; /* Push video behind other content */
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .bg-video {
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures video fills the screen */
-    z-index: -1; /* Push video behind other content */
-
-
+    height: auto;
+  }
 }
-
-@media(min-aspect-ratio:16/9){
-    .bg-video{
-        width: 100%;
-        height: auto;
-    }
-    }
