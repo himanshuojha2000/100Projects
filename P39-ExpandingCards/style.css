@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(5, 5, 5);
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+}
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  background-image: url(https://pixelz.cc/wp-content/uploads/2023/11/call-of-duty-modern-warefare-3-captain-price-uhd-4k-wallpaper.jpg);
+}
+.image-2 {
+  background-image: url(https://i.redd.it/some-screenshots-i-made-in-red-dead-redemption-2-4k-v0-j0s3xuoi1smc1.jpg?width=3840&format=pjpg&auto=webp&s=b7bf0944dda24573d7980fb1e3305e126537046f);
+}
+.image-3 {
+  background-image: url(https://wallpapercat.com/w/full/6/1/b/12229-3840x2160-desktop-4k-elden-ring-wallpaper.jpg);
+}
+.image-4 {
+  background-image: url(https://images7.alphacoders.com/108/1081933.jpg);
+}
+.image-5 {
+  background-image: url(https://static.cdprojektred.com/cms.cdprojektred.com/16x9_big/872822c5e50dc71f345416098d29fc3ae5cd26c1-1280x720.jpg);
+}
+
+.slide {
+  position: relative;
+  height: 80vh;
+  flex: 0.5;
+  border-radius: 50px;
+  color: white;
+  margin: #fff;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 700ms ease-in;
+}
+
+.slide h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+  font-size: 24px;
+}
+
+@media (max-width: 480px) {
+  .slide:nth-child(4),
+  .slide:nth-child(4) {
+    display: none;
+  }
+}
+
+.slide.active {
+  flex: 5;
+}
+
+.slide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3 ease-in 0.4;
+}
