@@ -159,6 +159,61 @@ A custom **dropdown select menu** to choose between different social media platf
 A stylish **form animation** where each letter of the label animates in with a delay, creating a wave effect. Ideal for visually appealing forms and enhancing user experience.  
 🛠 **Tech Used:** HTML, CSS, JavaScript
 
+### 🔹 P33 - Fullscreen Navigation
+
+A fullscreen navigation menu that covers the entire screen when triggered. Includes smooth open/close animations and interactive links.  
+🛠 **Tech Used:** HTML, CSS, JavaScript
+
+### 🔹 P34 - 3D Navigation
+
+A 3D rotating navigation effect that gives a futuristic vibe to a basic menu. Uses CSS transforms for visual depth.  
+🛠 **Tech Used:** HTML, CSS, JavaScript
+
+### 🔹 P35 - Counter
+
+A counter that automatically counts up to a target number using JavaScript. Great for showing statistics or achievements.  
+🛠 **Tech Used:** HTML, CSS, JavaScript
+
+### 🔹 P36 - Text Formatter
+
+A dynamic text formatter that allows users to format input text with **uppercase, lowercase, underline, bold, italic, and capitalize** options.  
+🛠 **Tech Used:** HTML, CSS, JavaScript
+
+### 🔹 P37 - Image Gallery with Animation
+
+An image gallery featuring smooth hover animations and layout transitions. Great for showcasing portfolios or products.  
+🛠 **Tech Used:** HTML, CSS, JavaScript
+
+### 🔹 P38 - Learn More Button
+
+An interactive "Learn More" button that reveals hidden content with a slide or fade animation. Perfect for landing pages.  
+🛠 **Tech Used:** HTML, CSS, JavaScript
+
+### 🔹 P39 - Expanding Key Cards
+
+A layout of cards that expand on click to reveal more information. Uses flexbox and smooth transitions for a modern UI feel.  
+🛠 **Tech Used:** HTML, CSS, JavaScript
+
+### 🔹 P40 - KeyCode Detector
+
+A fun utility that detects and displays the `key`, `keyCode`, and `code` values of any keyboard input. Great for learning keyboard events.  
+🛠 **Tech Used:** HTML, CSS, JavaScript
+
+### 🔹 P41 - Tabs
+
+A tabbed content interface where clicking each tab shows corresponding content. Useful for sections like FAQs, product details, or multi-step forms.  
+🛠 **Tech Used:** HTML, CSS, JavaScript
+
+### 🔹 P42 - Accordion with JS Info
+
+An advanced accordion component with smooth transitions and additional information about JavaScript's role in its functionality.  
+🛠 **Tech Used:** HTML, CSS, JavaScript
+
+### 🔹 P43 - Random Images with Lorem Picsum
+
+A gallery of randomly fetched images using [https://picsum.photos](https://picsum.photos). Loads different image sizes for a Pinterest-like effect.  
+🛠 **Tech Used:** HTML, CSS, JavaScript
+
 ---
 
 ## 🌟 How to Use
