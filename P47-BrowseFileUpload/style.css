@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  max-width: 700px;
+  height: 500px;
+  width: 100%;
+  border: 2px dashed white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.text {
+  margin-bottom: 25px;
+  color: white;
+  padding: 20px;
+}
+
+.upload {
+  background: white;
+  padding: 8px 20px;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.upload:hover {
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.8);
+}
+
+.img img {
+  width: 99%;
+  height: 99%;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: none;
+}
+
+.icon p.close {
+  font-size: 10px;
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  display: none;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 20px;
+}
+input[type="file"] {
+  display: none;
+}
+
+.wrapper .icon p.close:hover {
+  color: red;
+}
+
+.wrapper .icon p.close.exit {
+  display: block;
+}
+
+.icon p.close.active {
+  display: block; /* Show when active */
+}
+
+/* JS */
+
+.img img.active {
+  display: block; /* Show the uploaded image */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
