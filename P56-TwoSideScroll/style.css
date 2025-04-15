@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-slide {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.8s ease-in-out;
+}
+
+.left-slide > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: black;
+}
+
+.left-slide h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.right-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.8s ease-in-out;
+}
+
+.buttons-container button {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+}
+button {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  background: transparent;
+  color: white;
+  font-size: 2.2rem;
+}
+
+#down-btn {
+  transform: translateX(-100%);
+}
+
+#up-btn {
+  transform: translateY(-100%);
+}
+
+/* 1. Orange Sunset Gradient */
+.game-one h1 {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b, #fd6e6a, #fddb92);
+  background-clip: text;
+  padding: 10px;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid #feb47b;
+}
+
+/* 2. Grey Plane with Grey Clouds */
+.game-two h1 {
+  background: linear-gradient(90deg, #b0b0b0, #d9d9d9);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid #d9d9d9;
+}
+
+/* 3. Grey Plane in Black Night */
+.game-three h1 {
+  background: linear-gradient(90deg, #a9a9a9, #2c2c2c);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid #666;
+}
+
+/* 4. Grey Plane with Green Background */
+.game-four h1 {
+  background: linear-gradient(90deg, #808080, #3cb371);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid #3cb371;
+}
+
+/* 5. Orange Sunset */
+.game-five h1 {
+  background: linear-gradient(90deg, #ff9966, #ff5e62);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid #ff5e62;
+}
+
+/* 6. Optional Extra Styling for Sixth Slide */
+.game-six h1 {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid #0072ff;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-one {
+  background: url(https://images6.alphacoders.com/873/873231.jpg) no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-two {
+  background: url(https://alphacheckdesigns.com/cdn/shop/products/Aviation-Airplane-Aircraft-Wallpaper-15_1024x1024.jpg?v=1676825986);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-three {
+  background: url(https://wallpapercat.com/w/full/6/2/4/2217488-2048x1099-desktop-hd-dassault-aviation-background-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-four {
+  background: url(https://img.goodfon.com/original/2560x1600/e/50/su-57-su-57-mnogotselevoi-istrebitel-istrebitel-piatogo-po-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-five {
+  background: url(https://c4.wallpaperflare.com/wallpaper/946/841/242/15-eagle-15-strike-eagle-1920x1200-px-f-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-six {
+  background: url(https://t3.ftcdn.net/jpg/05/99/00/86/360_F_599008655_I3abf3wgIEVJGutCBFqSaLMC8ErCNTr0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
