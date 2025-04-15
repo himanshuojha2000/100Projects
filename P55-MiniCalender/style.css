@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+.calender {
+  background-color: white;
+  width: 40%;
+  box-shadow: 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px;
+  overflow: hidden;
+}
+
+.calendar:hover {
+  transform: scale(1.02);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.25);
+}
+
+.month {
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.day {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.day-number {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #333;
+  margin: 10px 0;
+}
+
+.year {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #888;
+  font-weight: 500;
+}
