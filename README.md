@@ -214,107 +214,107 @@ An advanced accordion component with smooth transitions and additional informati
 A gallery of randomly fetched images using [https://picsum.photos](https://picsum.photos). Loads different image sizes for a Pinterest-like effect.  
 🛠 **Tech Used:** HTML, CSS, JavaScript
 
-🔹 P44 - Random Quote Generator 📝
+### 🔹 P44 - Random Quote Generator 📝
 
 Produces a random quote each time the button is clicked. Great for inspiration apps or daily quote features.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P45 - Email Validation ✅
+### 🔹 P45 - Email Validation ✅
 
 A simple form field with live email format validation using JavaScript regex. Shows real-time feedback.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P46 - Changeable Background Color 🎨
+### 🔹 P46 - Changeable Background Color 🎨
 
 Click a button to change the background color randomly. Great for learning about events and styling.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P47 - Browse File Upload 📁
+### 🔹 P47 - Browse File Upload 📁
 
 A custom-styled file upload input that mimics native functionality with enhanced UI and UX.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P48 - Sticky Navigation Bar 📌
+### 🔹 P48 - Sticky Navigation Bar 📌
 
 A navigation bar that becomes sticky on scroll, improving user accessibility and design aesthetics.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P49 - Search Bar 🔍
+### 🔹 P49 - Search Bar 🔍
 
 A stylish search bar that expands on focus with animations and improved interactivity.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P50 - Custom Range Slider 🎚️
+### 🔹 P50 - Custom Range Slider 🎚️
 
 A sleek and customized range input slider, styled beyond default browser designs.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P51 - Feedback Form 📬
+### 🔹 P51 - Feedback Form 📬
 
 A responsive and animated feedback form with styled input fields and button interactions.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P52 - Eye Follow Emoji 👁️😄
+### 🔹 P52 - Eye Follow Emoji 👁️😄
 
 An emoji with animated eyes that follow the cursor movement across the screen.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P53 - Rounded Navigation Bar ⭕
+### 🔹 P53 - Rounded Navigation Bar ⭕
 
 A circular navigation menu with smooth hover and transition effects.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P54 - Clip Path Animation ✂️
+### 🔹 P54 - Clip Path Animation ✂️
 
 A project using clip-path for creating dynamic reveal animations and UI effects.
 🛠 Tech Used: HTML, CSS
 
-🔹 P55 - Mini Calendar 📅
+### 🔹 P55 - Mini Calendar 📅
 
 A fully functional mini calendar UI displaying current month, day, and dates in a sleek layout.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P56 - Two Side Scroll 🔁
+### 🔹 P56 - Two Side Scroll 🔁
 
 A creative layout with dual side scrolling content, ideal for comparisons or storytelling.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P57 - Followers Count 👥
+### 🔹 P57 - Followers Count 👥
 
 An auto-incrementing counter that simulates increasing followers or stats on load.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P58 - Custom Cursor 2.0 🎯
+### 🔹 P58 - Custom Cursor 2.0 🎯
 
 An upgraded custom cursor design with dynamic shape changes on hover targets.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P59 - Rotating Text 🔄
+### 🔹 P59 - Rotating Text 🔄
 
 Animated rotating text effect that cycles through multiple messages with timing delays.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P60 - Background Image Carousel 🎠
+### 🔹 P60 - Background Image Carousel 🎠
 
 A carousel that transitions between multiple background images with smooth animations.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P61 - Calculator (v2) 🧮
+### 🔹 P61 - Calculator (v2) 🧮
 
 An updated calculator app featuring enhanced UI and responsive layout.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P62 - Sidebar Animation 📂
+### 🔹 P62 - Sidebar Animation 📂
 
 An animated sliding sidebar menu with toggle functionality and transition effects.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P63 - Password Strength + Blur Effect 🔒
+### 🔹 P63 - Password Strength + Blur Effect 🔒
 
 Checks password strength and applies a background blur animation for visual feedback.
 🛠 Tech Used: HTML, CSS, JavaScript
 
-🔹 P64 - Rotating Gallery 🖼️
+### 🔹 P64 - Rotating Gallery 🖼️
 
 A 3D rotating image gallery with perspective and depth using CSS transforms.
 🛠 Tech Used: HTML, CSS, JavaScript
