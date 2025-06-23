@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 90%;
+  width: 500px;
+  background: #ffffff;
+  padding: 3rem 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper h1 {
+  color: #243b55;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.captcha-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  margin-bottom: 20px;
+  gap: 1rem;
+}
+
+.captcha-container {
+  flex: 1;
+  height: 100%;
+  background: #000;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.captcha {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-shadow: 0 0 3px #b1b1b1;
+  user-select: none;
+}
+
+.reload-btn {
+  background: #243b55;
+  color: #fff;
+  border: none;
+  padding: 0 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  height: 100%;
+  transition: all 0.2s ease;
+}
+
+.reload-btn:hover i {
+  transform: rotate(25deg);
+}
+
+.input-area {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.input-area input {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  padding-left: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.input-area input:focus {
+  border-color: #243b55;
+  outline: none;
+}
+
+.check-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  padding: 0 20px;
+  height: 40px;
+  background: #243b55;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input-area input:valid + .check-btn {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.status-text {
+  display: none;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  color: #ff4d4d;
+}
