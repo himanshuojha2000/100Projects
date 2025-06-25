@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 400px;
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 1em;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #8e2de2;
+  outline: none;
+}
+
+.output {
+  margin-top: 1.5em;
+}
+
+.todo {
+  border-left: 4px solid #22bb33;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 1em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.todo:hover {
+  transform: scale(1.02);
+}
+
+.delete {
+  color: #8e2de2;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: color 0.2s ease;
+}
+
+.delete:hover {
+  color: #4a00e0;
+}
+
+.message-container {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 2rem;
+  background-color: #ffffff;
+  padding: 1em 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateX(0);
+  visibility: hidden;
+  transition: transform 0.5s ease, visibility 0.5s ease;
+  z-index: 100;
+}
+
+.success {
+  transform: translateX(100px);
+  visibility: visible;
+  background-color: #22bb33;
+  color: white;
+}
+
+.error {
+  transform: translateX(100px);
+  visibility: visible;
+  background-color: #df4759;
+  color: white;
+}
