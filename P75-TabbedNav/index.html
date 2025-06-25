@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabbed Navigation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tadded-container">
+      <div class="container">
+        <div class="menu_Links">
+          <ul>
+            <li class="active">About</li>
+            <li>Skills</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div class="sections">
+          <section class="about_section visible" data-section="About">
+            <h2>About Me</h2>
+            <img
+              src="https://i.pinimg.com/736x/20/e9/a3/20e9a3d448332149d3e6fc4441ca9943.jpg"
+              alt="About Image"
+            />
+            <h4>Himanshu</h4>
+            <p>
+              I am a passionate full-stack web developer with expertise in
+              building scalable and interactive web applications using modern
+              technologies like React, Node.js, MongoDB, and Express. I love
+              solving real-world problems through clean and efficient code.
+              Currently, I am actively seeking a full-time role where I can
+              contribute to impactful projects and grow alongside a talented
+              engineering team.
+            </p>
+          </section>
+
+          <section class="courses_section" data-section="Skills">
+            <h2>SKILLS</h2>
+            <div class="team_box">
+              <img src="images/html.png" />
+              <h4>HTML5 & CSS3</h4>
+            </div>
+            <div class="team_box">
+              <img src="images/js.png" />
+              <h4>JavaScript & React.js</h4>
+            </div>
+            <div class="team_box">
+              <img src="images/css.png" />
+              <h4>CSS</h4>
+            </div>
+            <div class="team_box">
+              <img src="images/go.png" />
+              <h4>Go</h4>
+            </div>
+            <div class="team_box">
+              <img src="images/git and github.png" />
+              <h4>Git, GitHub & Deployment</h4>
+            </div>
+          </section>
+
+          <section class="contact_section" data-section="Contact">
+            <h2>Contact</h2>
+            <div class="social_Links">
+              <a href="#">YouTube</a>
+              <a href="#">Twitter</a>
+              <a href="#">Udemy</a>
+              <a href="#">Instagram</a>
+              <a href="#">Github</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
