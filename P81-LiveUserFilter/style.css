@@ -1,0 +1,165 @@
+:root {
+  --primary-color: #f0f4f8;
+  --card-bg: rgba(255, 255, 255, 0.7);
+  --input-bg: #ffffff;
+  --input-focus: #dbeafe;
+  --primary-label: #000000;
+  --secondary-label: #4b5563;
+  --white-ball: #ffffff;
+  --black-ball: #000000;
+  --text-color: #1f2937;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --border-color: #e5e7eb;
+}
+
+body {
+  background: linear-gradient(to bottom right, #e0f7fa, #f0f4f8);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  color: var(--text-color);
+}
+
+/* Container Styling */
+.container {
+  width: 600px;
+  border-radius: 16px;
+  background: var(--card-bg);
+  box-shadow: 0 8px 32px var(--shadow-color);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+/* Header */
+.header {
+  background-color: #3b82f6;
+  color: white;
+  padding: 30px 25px;
+  text-align: center;
+}
+
+.title {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.header input {
+  border: none;
+  border-radius: 25px;
+  padding: 12px 20px;
+  width: 100%;
+  font-size: 15px;
+  background-color: var(--input-bg);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.header input:focus {
+  outline: none;
+  background-color: var(--input-focus);
+}
+
+/* User List */
+.user-list {
+  background-color: transparent;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.user-list li {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  transition: background-color 0.3s;
+}
+
+.user-list li:hover {
+  background-color: #e0f2fe;
+}
+
+.user-list li:not(:last-of-type) {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.user-list img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user-info h4 {
+  margin: 0 0 6px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.user-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.user-list li.hide {
+  display: none;
+}
+
+/* Toggle Switch */
+.toggler-container {
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+}
+
+#switch {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+label {
+  display: block;
+  width: 90px;
+  height: 45px;
+  background-color: var(--primary-label);
+  border-radius: 90px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+label::after {
+  content: "";
+  width: 38px;
+  height: 38px;
+  background-color: var(--white-ball);
+  border-radius: 50%;
+  position: absolute;
+  top: 3.5px;
+  left: 4px;
+  transition: 0.4s;
+}
+
+#switch:checked + label {
+  background-color: var(--secondary-label);
+}
+
+#switch:checked + label::after {
+  background-color: var(--black-ball);
+  left: calc(100% - 4px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 52px;
+}
