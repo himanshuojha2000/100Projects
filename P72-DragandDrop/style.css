@@ -3,40 +3,57 @@
 }
 
 body {
-  background-color: rgb(14, 13, 13);
+  background-color: #1e1e2f; /* Soft dark blue instead of harsh black */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .empty {
-  height: 200px;
-  width: 200px;
-  margin: 10px;
-  border: 3px solid white;
-  background: white;
+  height: 220px;
+  width: 220px;
+  margin: 15px;
+  border: 2px dashed #ffffff70;
+  background: #2c2f4a;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border 0.3s, background-color 0.3s;
 }
 
 .fill {
   background-image: url("https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg");
   background-position: center;
   background-size: cover;
-  height: 195px;
-  width: 195px;
-  cursor: pointer;
+  height: 210px;
+  width: 210px;
+  border-radius: 10px;
+  cursor: grab;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s;
 }
 
-/* JavaScript */
+.fill:active {
+  cursor: grabbing;
+  transform: scale(1.05);
+}
+
 .hovered {
-  background-color: green;
-  border: 3px dashed white;
+  background-color: #3949ab; /* Soft indigo on drag over */
+  border: 3px dashed #fff;
 }
 
 @media (max-width: 800px) {
   body {
     flex-direction: column;
+  }
+
+  .empty {
+    margin: 10px 0;
   }
 }
