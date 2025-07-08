@@ -1,0 +1,117 @@
+/* RESET & BASE */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #1e1e2f;
+  --accent-color: #00c896; /* Teal Green */
+  --secondary-color: #4ecca3;
+  --gray-light: #cfcfcf;
+  --text-light: #f1f1f1;
+  --error-color: #ff4d4f;
+  --success-color: #52c41a;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+}
+
+/* FORM STYLING */
+form {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  width: 320px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: 80px auto;
+  box-shadow: 0 0 20px rgba(0, 200, 150, 0.1);
+}
+
+form input {
+  padding: 10px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--gray-light);
+  border-radius: 5px;
+  color: var(--text-light);
+  margin-bottom: 15px;
+  transition: border 0.3s ease;
+}
+
+form input:focus {
+  border-color: var(--secondary-color);
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: var(--accent-color);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--secondary-color);
+}
+
+.already {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form p {
+  font-size: 14px;
+  color: var(--text-light);
+}
+
+.input-container p.msg {
+  visibility: hidden;
+  font-size: 13px;
+  color: var(--error-color);
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.input-container.error p.msg {
+  visibility: visible;
+}
+
+.input-container.error input {
+  border-color: var(--error-color);
+}
+
+.input-container.success input {
+  border-color: var(--success-color);
+}
+
+/* IMAGE */
+img {
+  width: 40%;
+  position: absolute;
+  top: 60px;
+  right: 10%;
+}
+
+/* HEADING STYLING */
+.content h1 {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  font-size: 4rem;
+  color: var(--text-light);
+  text-shadow: 2px 2px 5px rgba(0, 200, 150, 0.2);
+}
