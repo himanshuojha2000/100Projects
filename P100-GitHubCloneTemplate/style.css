@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #161b22;
+  --secondary-color: #0d1117;
+  --accent-color: #549ef3;
+  --border-color: #4a515d;
+  --text-color: #dce9f7;
+  --subtext-color: #868686;
+  --muted-color: #585c5e;
+}
+
+body {
+  background: var(--secondary-color);
+  font-family: Hubot-Sans, sans-serif;
+  color: var(--text-color);
+}
+
+/* ------------- Navigation ------------- */
+nav {
+  background: var(--primary-color);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px;
+}
+
+ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+
+nav form {
+  width: 20%;
+}
+
+nav form input {
+  background: var(--secondary-color);
+  padding: 7px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  width: 100%;
+  color: #fff;
+}
+
+nav form input::placeholder {
+  color: #ccc;
+}
+
+nav form input:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+nav form input:hover {
+  border-color: #aaa;
+}
+
+.btns-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.btns-container a {
+  color: #fff;
+}
+
+.btns-container button {
+  background: transparent;
+  border: 1px solid #585d63;
+  padding: 6px 20px;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* ------------- Header Tabs ------------- */
+header {
+  border-bottom: 0.6px solid #242424;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+header ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+header ul li a {
+  color: var(--text-color);
+  font-size: 14px;
+  padding: 0.5rem;
+}
+
+header ul li a.active {
+  border-bottom: 2px solid orange;
+  font-weight: bold;
+  color: #ffa500;
+}
+
+/* ------------- Profile Info Section ------------- */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.about-user {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-user .user-avatar {
+  background-image: url("https://avatars.githubusercontent.com/u/85052811?v=4");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+
+.user-name {
+  color: var(--muted-color);
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+button.follow {
+  background: #21262d;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 5px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.followers-info a {
+  color: #fff;
+}
+
+.followers-info span {
+  color: #545c66;
+}
+
+.company,
+.location,
+.blog,
+.twitter_username {
+  margin: 10px 0;
+  font-size: 13px;
+  color: var(--text-color);
+}
+
+/* ------------- Repository Section ------------- */
+main {
+  flex: 2;
+  min-width: 300px;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+.repos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.repo-card {
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 100%;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .repo-card {
+    width: 47%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .repo-card {
+    width: 43%;
+  }
+}
+
+.repo-title {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.repo-title:hover {
+  text-decoration: underline;
+  color: #91caff;
+}
+
+.repo-subtitle {
+  font-size: 12px;
+  margin-top: 10px;
+  color: var(--subtext-color);
+}
+
+.popularity {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: var(--muted-color);
+  margin-top: 10px;
+}
+
+.stars {
+  margin-right: 15px;
+}
+
+.fork {
+  display: flex;
+  align-items: center;
+}
+
+.fork-svg {
+  width: 14px;
+  margin-right: 6px;
+}
+
+.pill {
+  border: 1px solid var(--border-color);
+  color: #a3acbc;
+  padding: 3px 10px;
+  border-radius: 100px;
+  font-size: 10px;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* ------------- Icons ------------- */
+i {
+  color: var(--border-color);
+  margin-right: 5px;
+}
+
+.fa-github {
+  font-size: 2rem;
+  color: #fff;
+  margin-right: 1rem;
+}

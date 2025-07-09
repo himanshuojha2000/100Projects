@@ -319,6 +319,186 @@ Checks password strength and applies a background blur animation for visual feed
 A 3D rotating image gallery with perspective and depth using CSS transforms.
 🛠 Tech Used: HTML, CSS, JavaScript
 
+### 🔹 P65 - Random Gradient Generator 🌈
+
+Generates random linear gradients with displayed CSS code for reuse. Useful for creative background ideas.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P66 - Two-Sided Form ↔️
+
+A toggleable form layout allowing users to switch between login and signup panels with smooth animations.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P67 - Animated Search Bar 🔍✨
+
+A minimalistic and animated search input that expands on focus. Clean and modern UI interaction.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P68 - Random Password Generator 🔐
+
+Generates secure random passwords based on user criteria like length, symbols, and numbers.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P69 - Box Shadow Generator 🧰
+
+Creates and previews CSS box-shadow effects live. Users can copy the generated CSS.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P70 - Decimal to Binary Converter 🔄
+
+Converts decimal values into binary format with instant feedback and error handling.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P71 - Random CAPTCHA Generator 🔢
+
+Simulates CAPTCHA functionality by generating random strings and verifying user input.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P72 - Drag and Drop 📦
+
+Implements basic drag and drop between containers. Elements can be moved around using mouse events.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P73 - Update CSS Variables using JS 🎛️
+
+Demonstrates how to update CSS custom properties (variables) dynamically using JavaScript.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P74 - Light On/Off Toggle 💡
+
+A fun light bulb toggle project simulating the switching of a light on and off.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P75 - Tabbed Navigation 📑
+
+Switches between multiple content panels using a tabbed interface with animations.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P76 - To-Do List ✅
+
+A basic to-do list app with add and remove functionality, allowing task management in the browser.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P77 - Random Jokes Generator 😂
+
+Displays a random joke on each button click using a joke API or predefined list.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P78 - Random Cat Generator 🐱
+
+Shows random cat images fetched from an API. Great for fun and pet-related projects.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P79 - Profile Card Generator 🪪
+
+Dynamically generates profile cards with random names, images, and bio info.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P80 - Dad Jokes Generator 👨‍🦰🤣
+
+Fetches and displays a new dad joke every time the button is clicked.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P81 - Live User Filter 🔍
+
+Filters a list of user cards in real-time based on search input.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P82 - Animated Image Cards 📸
+
+Hover-based image animations with layered transitions and zoom effects.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P83 - Emoji Catch Game 🎯😄
+
+A mini-game where the user tries to catch emojis falling from the top of the screen.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P84 - Twitter Follow Component 🐦
+
+A UI clone of the Twitter follow card with animation and interactive follow/unfollow toggle.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P85 - Book List App 📚
+
+A book management interface to add, display, and delete books from local storage.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P86 - Stopwatch ⏱️
+
+A functional stopwatch with start, stop, reset, and lap functionality.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P87 - Reaction Time Game ⚡
+
+Measures user’s reaction speed by capturing how fast they click after a visual signal.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P88 - Typing Speed Test ⌨️
+
+A typing test interface that measures WPM and accuracy with real-time scoring.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P89 - Word Counter Tool 📏
+
+A utility that counts words, characters, and spaces from user input text area.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P90 - Random Person Generator 👤
+
+Generates and displays random user profiles using an API, including name, photo, and email.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P91 - House Website Template 🏡
+
+A static real estate landing page template showcasing houses with features and images.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P92 - Food Website Template 🍔
+
+A visually appealing restaurant or food delivery webpage layout with menu and images.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P93 - Art Portfolio Template 🎨
+
+A minimal portfolio website layout to display artwork, perfect for artists or galleries.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P94 - Hoodie Landing Page 🧥
+
+A modern landing page design for hoodie or apparel products with a product showcase.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P95 - Shape Click Game 🟢🟥
+
+A fun interactive game where users have to click appearing shapes as quickly as possible.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P96 - Form Validation ✍️✅
+
+A styled form with JavaScript-based validation on input fields like name, email, and password.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P97 - Food Web Page UI 🍕
+
+Another layout for a food-related website with different sections like About, Services, and Menu.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P98 - Dark Mode Toggle 🌗
+
+A basic implementation of dark mode using a toggle switch with saved state handling.
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P99 - Draw a Circle 🟠
+
+Draws a circle on the screen when the user clicks or triggers an action—fun with shapes!
+🛠 Tech Used: HTML, CSS, JavaScript
+
+### 🔹 P100 - GitHub Homepage Clone 💻
+
+A UI clone of GitHub’s homepage layout, showcasing layout structuring and responsive design.
+🛠 Tech Used: HTML, CSS, JavaScript
+
 ---
 
 ## 🌟 How to Use
